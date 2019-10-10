@@ -8,5 +8,10 @@ end
 
 def learn(knowledge)
   @knowledge << knowledge 
-end 
+end
+
+def knowledge
+    @knowledge
+  end 
+  
 end
